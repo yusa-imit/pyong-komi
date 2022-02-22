@@ -1,38 +1,48 @@
 .App {
-  text-align: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.kokomi {
+    height: 100%;
+    width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.numbers {
+    font-size: 2rem;
+    font-weight: 800;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 499px){
+    .numbers {
+        font-size: 0.8rem;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 500px) and (max-width: 1004px) {
+    .numbers {
+        font-size: 1.5rem;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (min-width: 1005px) and (max-width: 1247px) {
+    .numbers {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 1248px) {
+    .numbers {
+        font-size: 2rem;
+    }
 }
