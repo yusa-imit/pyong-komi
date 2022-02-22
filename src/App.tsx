@@ -33,10 +33,13 @@ function App() {
             className="App"
             onClick={() => {
                 setClicked(true);
-                axios.get<formatData>("https://api.countapi.xyz/hit/kokomi.sutora.org/1e72fd45-9e3d-422a-8559-4ebf25288917")
-                .then((res)=>{
-                    setValue(res.data.value);
-                })
+                axios
+                    .get<formatData>(
+                        "https://api.countapi.xyz/hit/kokomi.sutora.org/1e72fd45-9e3d-422a-8559-4ebf25288917"
+                    )
+                    .then((res) => {
+                        setValue(res.data.value);
+                    });
             }}
         >
             <div
