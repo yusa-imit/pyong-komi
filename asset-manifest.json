@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pyong-komi/static/css/main.04668dd4.css",
-    "main.js": "/pyong-komi/static/js/main.f2a43437.js",
-    "static/js/787.bcb6ad57.chunk.js": "/pyong-komi/static/js/787.bcb6ad57.chunk.js",
-    "static/media/kokomi_no_loop.webp": "/pyong-komi/static/media/kokomi_no_loop.627b0c1280ee549db739.webp",
-    "index.html": "/pyong-komi/index.html",
-    "main.04668dd4.css.map": "/pyong-komi/static/css/main.04668dd4.css.map",
-    "main.f2a43437.js.map": "/pyong-komi/static/js/main.f2a43437.js.map",
-    "787.bcb6ad57.chunk.js.map": "/pyong-komi/static/js/787.bcb6ad57.chunk.js.map"
+    "main.css": "/static/css/main.04668dd4.css",
+    "main.js": "/static/js/main.db643b43.js",
+    "static/js/787.bcb6ad57.chunk.js": "/static/js/787.bcb6ad57.chunk.js",
+    "static/media/kokomi_no_loop.webp": "/static/media/kokomi_no_loop.627b0c1280ee549db739.webp",
+    "index.html": "/index.html",
+    "main.04668dd4.css.map": "/static/css/main.04668dd4.css.map",
+    "main.db643b43.js.map": "/static/js/main.db643b43.js.map",
+    "787.bcb6ad57.chunk.js.map": "/static/js/787.bcb6ad57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04668dd4.css",
-    "static/js/main.f2a43437.js"
+    "static/js/main.db643b43.js"
   ]
 }
