@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pyong-komi/static/css/main.04668dd4.css",
-    "main.js": "/pyong-komi/static/js/main.105427e5.js",
-    "static/js/787.bcb6ad57.chunk.js": "/pyong-komi/static/js/787.bcb6ad57.chunk.js",
-    "static/media/kokomi.mp4": "/pyong-komi/static/media/kokomi.bd517a91d53e9d3175df.mp4",
-    "index.html": "/pyong-komi/index.html",
-    "main.04668dd4.css.map": "/pyong-komi/static/css/main.04668dd4.css.map",
-    "main.105427e5.js.map": "/pyong-komi/static/js/main.105427e5.js.map",
-    "787.bcb6ad57.chunk.js.map": "/pyong-komi/static/js/787.bcb6ad57.chunk.js.map"
+    "main.css": "/kokomi.sutora.org/static/css/main.04668dd4.css",
+    "main.js": "/kokomi.sutora.org/static/js/main.df805f47.js",
+    "static/js/787.bcb6ad57.chunk.js": "/kokomi.sutora.org/static/js/787.bcb6ad57.chunk.js",
+    "static/media/kokomi.mp4": "/kokomi.sutora.org/static/media/kokomi.bd517a91d53e9d3175df.mp4",
+    "index.html": "/kokomi.sutora.org/index.html",
+    "main.04668dd4.css.map": "/kokomi.sutora.org/static/css/main.04668dd4.css.map",
+    "main.df805f47.js.map": "/kokomi.sutora.org/static/js/main.df805f47.js.map",
+    "787.bcb6ad57.chunk.js.map": "/kokomi.sutora.org/static/js/787.bcb6ad57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04668dd4.css",
-    "static/js/main.105427e5.js"
+    "static/js/main.df805f47.js"
   ]
 }
