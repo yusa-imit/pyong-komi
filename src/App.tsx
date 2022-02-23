@@ -21,6 +21,12 @@ function App() {
     })();
   }, []);
 
+  useEffect(() => {
+      if (video.current) {
+          video.current.play();
+      }
+  }, [video]);
+
   return (
     <div
       className="App"
@@ -46,7 +52,7 @@ function App() {
           width: "80%",
         }}
       >
-        <video className="kokomi" src={kokomiVideo} ref={video} autoPlay />
+        <video className="kokomi" src={kokomiVideo} ref={video} autoPlay playsInline muted/>
       </div>
       <div className="numbers">{"KOKOMI COUNT : " + value}</div>
     </div>
