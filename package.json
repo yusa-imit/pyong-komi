@@ -1,6 +1,5 @@
 {
   "name": "pyong-kokomi",
-  "homepage": "https:/kokomi.sutora.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
